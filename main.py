@@ -2,7 +2,7 @@ from diaries.DiarySample import DiarySample # ↓のリストには、メンバ�
 from diaries.IwashiroDiary import IwashiroDiary
 from diaries.TajimaDiary import TajimaDiary
 from diaries.matsuuraakaneDiary import matsuuraakaneDiary
-from diaries.FujitaDiary import chokaiDiary
+from diaries.chokaiDiary import chokaiDiary
 from diaries.FujitaDiary import FujitaDiary
 diaries = [
   DiarySample(),
