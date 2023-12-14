@@ -1,6 +1,6 @@
-from diaries.DiarySample import DiarySample
+from diaries.TajimaDiary import TajimaDiary
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), ]
+diaries = [TajimaDiary(), ]
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
