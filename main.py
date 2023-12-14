@@ -2,11 +2,15 @@ from diaries.DiarySample import DiarySample # ↓のリストには、メンバ�
 from diaries.IwashiroDiary import IwashiroDiary
 from diaries.TajimaDiary import TajimaDiary
 from diaries.matsuuraakaneDiary import matsuuraakaneDiary
+from diaries.FujitaDiary import chokaiDiary
+from diaries.FujitaDiary import FujitaDiary
 diaries = [
   DiarySample(),
   IwashiroDiary(),
   TajimaDiary(),
-  matsuuraakaneDiary()
+  matsuuraakaneDiary(),
+  chokaiDiary(),
+  FujitaDiary()
 ]
 for d in diaries:
     print("---------------------------------")
