@@ -4,13 +4,15 @@ from diaries.TajimaDiary import TajimaDiary
 from diaries.matsuuraakaneDiary import matsuuraakaneDiary
 from diaries.chokaiDiary import ChokaiDiary
 from diaries.FujitaDiary import FujitaDiary
+from diaries.KonishishutoDiary import shuDiary
 diaries = [
   DiarySample(),
   IwashiroDiary(),
   TajimaDiary(),
   matsuuraakaneDiary(),
   ChokaiDiary(),
-  FujitaDiary()
+  FujitaDiary(),
+  shuDiary()
 ]
 for d in diaries:
     print("---------------------------------")
